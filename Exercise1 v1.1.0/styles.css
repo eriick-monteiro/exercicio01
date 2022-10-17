@@ -17,3 +17,32 @@ input {
     /* junta os inputs */
     float: left;
 }
+
+.estilo {
+    -webkit-appearance: none;
+    background: #d3d3d3;
+    outline: none;
+    /*width: 100%;
+    height: 20px;*/
+    border-radius: 9px;   
+}
+
+.estilo::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+
+    background: #2796ee;
+    cursor: pointer;
+}
+
+.estilo::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+
+    background: #2796ee;
+    cursor: pointer;
+}
