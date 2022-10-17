@@ -8,16 +8,17 @@ function vol() {
 	var txblu = document.getElementById('txblu');
 	
 	var corpo = window.document.body;
-	var red = document.getElementById('volume0').value
-	var grn = document.getElementById('volume1').value
-	var blu = document.getElementById('volume2').value
 	
-	var tred = document.getElementById('txt0').value
-	var tgrn = document.getElementById('txt1').value
-	var tblu = document.getElementById('txt2').value
+	var bred = document.getElementById('bg0').value
+	var bgrn = document.getElementById('bg1').value
+	var bblu = document.getElementById('bg2').value
+	
+	var tred = document.getElementById('tx0').value
+	var tgrn = document.getElementById('tx1').value
+	var tblu = document.getElementById('tx2').value
 	
 	//document.body.style.background = "rgb(" + red + "," + grn + "," + blu + ")";
-	document.body.style.background = `rgb(${red}, ${grn}, ${blu})`;
+	document.body.style.background = `rgb(${bred}, ${bgrn}, ${bblu})`;
 	//document.body.style.color = "rgb(" + tred + "," + tgrn + "," + tblu + ")";
 	document.body.style.color = `rgb(${tred}, ${tgrn}, ${tblu})`;
 

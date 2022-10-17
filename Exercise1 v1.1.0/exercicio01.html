@@ -6,18 +6,18 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<h1 id="titulo">Light Mode</h1>
+		<h1 id="titulo">Exercício 1</h1>
 		
-		<div id="res0">
-			<input type="range" id="volume0" min="0" max="255" value="255" onchange="vol()"> <p id="bgred">255</p>
-			<input type="range" id="volume1" min="0" max="255" value="255" onchange="vol()"> <p id="bggrn">255</p>
-			<input type="range" id="volume2" min="0" max="255" value="255" onchange="vol()"> <p id="bgblu">255</p>
+		<div>
+			<input type="range" id="bg0" min="0" max="255" value="255" onchange="changeColor()"> <p id="bgred">255</p>
+			<input type="range" id="bg1" min="0" max="255" value="255" onchange="changeColor()"> <p id="bggrn">255</p>
+			<input type="range" id="bg2" min="0" max="255" value="255" onchange="changeColor()"> <p id="bgblu">255</p>
 		</div>
 		
-		<div id="res1">
-			<input type="range" id="txt0" min="0" max="255" value="0" onchange="vol()"> <p id="txred">0</p>
-			<input type="range" id="txt1" min="0" max="255" value="0" onchange="vol()"> <p id="txgrn">0</p>
-			<input type="range" id="txt2" min="0" max="255" value="0" onchange="vol()"> <p id="txblu">0</p>
+		<div>
+			<input type="range" id="tx0" min="0" max="255" value="0" onchange="changeColor()"> <p id="txred">0</p>
+			<input type="range" id="tx1" min="0" max="255" value="0" onchange="changeColor()"> <p id="txgrn">0</p>
+			<input type="range" id="tx2" min="0" max="255" value="0" onchange="changeColor()"> <p id="txblu">0</p>
 		</div>
 		
 		<script src="script.js" defer></script>
