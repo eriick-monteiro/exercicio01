@@ -12,3 +12,8 @@ body {
   height: 150px;
   padding: 0;
 }
+
+input {
+    /* junta os inputs */
+    float: left;
+}
