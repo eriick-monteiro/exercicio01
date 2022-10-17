@@ -26,10 +26,10 @@ function changeColor() {
 	document.body.style.color = `rgb(${tred}, ${tgrn}, ${tblu})`;
 
 	//Escrevendo o número de cada cor em RGB ao lado de cada Input de Range
-	bgred.innerText = `${red}`;
+	bgred.innerText = `${bred}`;
 	txred.innerText = `${tred}`;
-	bggrn.innerText = `${grn}`;
+	bggrn.innerText = `${bgrn}`;
 	txgrn.innerText = `${tgrn}`;
-	bgblu.innerText = `${blu}`;
+	bgblu.innerText = `${bblu}`;
 	txblu.innerText = `${tblu}`;
 }
