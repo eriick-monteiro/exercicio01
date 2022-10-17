@@ -1,0 +1,14 @@
+body {
+	user-select: none;
+}
+
+#button, #titulo {
+	text-align: center;
+}
+
+.slider-wrapper {
+  display: inline-block;
+  width: 20px;
+  height: 150px;
+  padding: 0;
+}
