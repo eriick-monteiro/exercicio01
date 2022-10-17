@@ -3,27 +3,23 @@
 	<head>
 		<title>Exercício 01</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<h1 id="titulo">Light Mode</h1>
 		
-		<div id="button">
-			<input type="button" value="Click Me" onclick="changeColor()">
+		<div id="res0">
+			<input type="range" id="volume0" min="0" max="255" value="255" onchange="vol()"> <p id="bgred">255</p>
+			<input type="range" id="volume1" min="0" max="255" value="255" onchange="vol()"> <p id="bggrn">255</p>
+			<input type="range" id="volume2" min="0" max="255" value="255" onchange="vol()"> <p id="bgblu">255</p>
 		</div>
 		
-		<div class="slider-wrapper">
-			<input type="range" id="volume0" min="0" max="255" value="255" onchange="vol()">
-			<input type="range" id="volume1" min="0" max="255" value="255" onchange="vol()">
-			<input type="range" id="volume2" min="0" max="255" value="255" onchange="vol()">
+		<div id="res1">
+			<input type="range" id="txt0" min="0" max="255" value="0" onchange="vol()"> <p id="txred">0</p>
+			<input type="range" id="txt1" min="0" max="255" value="0" onchange="vol()"> <p id="txgrn">0</p>
+			<input type="range" id="txt2" min="0" max="255" value="0" onchange="vol()"> <p id="txblu">0</p>
 		</div>
 		
-		<div>
-			<input type="range" id="txt0" min="0" max="255" value="0" onchange="vol()">
-			<input type="range" id="txt1" min="0" max="255" value="0" onchange="vol()">
-			<input type="range" id="txt2" min="0" max="255" value="0" onchange="vol()">
-		</div>
-		
-		<script type="text/javascript" src="script.js"></script>
+		<script src="script.js" defer></script>
 	</body>
 </html>
